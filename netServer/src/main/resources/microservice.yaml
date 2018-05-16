@@ -1,0 +1,30 @@
+APPLICATION_ID: netTest
+
+service_description:
+  name: netServer
+  version: 0.0.1
+
+cse:
+  service:
+    registry:
+      address: https://cse.cn-south-1.myhuaweicloud.com:443
+      instance:
+        watch: false
+  rest:
+    address: 0.0.0.0:8080
+#  handler:
+#    chain:
+#      Provider:
+#        default: perf-stats
+  config:
+    client:
+      serverUri: https://cse.cn-south-1.myhuaweicloud.com:443
+      refreshMode: 1
+      refresh_interval: 5000
+  monitor:
+    client:
+      serverUri: https://cse.cn-south-1.myhuaweicloud.com:443
+  credentials:
+    accessKey: AONYCAOM6ZA0WGN532SE
+    secretKey: CL6FFLnHKona7gvbEzCx7baSDcP3UbePljhg5Pdh
+    akskCustomCipher: default

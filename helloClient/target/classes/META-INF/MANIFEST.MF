@@ -1,0 +1,68 @@
+Manifest-Version: 1.0
+Built-By: Administrator
+Class-Path: . ./lib/cse-solution-service-engine-2.3.12.jar ./lib/found
+ ation-auth-2.3.12.jar ./lib/foundation-common-1.0.0.B003.jar ./lib/ja
+ ckson-dataformat-xml-2.9.4.jar ./lib/jackson-module-jaxb-annotations-
+ 2.8.7.jar ./lib/stax2-api-3.1.4.jar ./lib/woodstox-core-5.0.3.jar ./l
+ ib/jackson-databind-2.9.4.jar ./lib/jackson-annotations-2.9.4.jar ./l
+ ib/spring-context-4.3.5.RELEASE.jar ./lib/httpclient-4.5.2.jar ./lib/
+ httpcore-4.4.6.jar ./lib/commons-logging-1.2.jar ./lib/commons-codec-
+ 1.10.jar ./lib/javax.ws.rs-api-2.0.1.jar ./lib/foundation-ssl-1.0.0.B
+ 003.jar ./lib/commons-configuration-1.10.jar ./lib/netty-tcnative-bor
+ ingssl-static-2.0.7.Final.jar ./lib/commons-io-2.4.jar ./lib/foundati
+ on-config-1.0.0.B003.jar ./lib/spring-beans-4.3.5.RELEASE.jar ./lib/s
+ nakeyaml-1.16.jar ./lib/json-lib-2.4-jdk15.jar ./lib/commons-beanutil
+ s-1.9.2.jar ./lib/commons-collections-3.2.2.jar ./lib/ezmorph-1.0.6.j
+ ar ./lib/netty-codec-4.1.17.Final.jar ./lib/netty-codec-http-4.1.17.F
+ inal.jar ./lib/netty-codec-http2-4.1.17.Final.jar ./lib/netty-common-
+ 4.1.17.Final.jar ./lib/netty-handler-4.1.17.Final.jar ./lib/netty-buf
+ fer-4.1.17.Final.jar ./lib/netty-codec-socks-4.1.17.Final.jar ./lib/n
+ etty-handler-proxy-4.1.17.Final.jar ./lib/netty-resolver-4.1.17.Final
+ .jar ./lib/netty-transport-4.1.17.Final.jar ./lib/config-cc-1.0.0.B00
+ 3.jar ./lib/foundation-vertx-1.0.0.B003.jar ./lib/vertx-core-3.5.0.ja
+ r ./lib/netty-resolver-dns-4.1.17.Final.jar ./lib/netty-codec-dns-4.1
+ .17.Final.jar ./lib/vertx-web-3.5.0.jar ./lib/vertx-auth-common-3.5.0
+ .jar ./lib/vertx-bridge-common-3.5.0.jar ./lib/transport-highway-1.0.
+ 0.B003.jar ./lib/common-protobuf-1.0.0.B003.jar ./lib/protostuff-core
+ -1.5.2.jar ./lib/protostuff-api-1.5.2.jar ./lib/protostuff-runtime-1.
+ 5.2.jar ./lib/protostuff-collectionschema-1.5.2.jar ./lib/jackson-dat
+ aformat-protobuf-2.9.4.jar ./lib/protoparser-4.0.3.jar ./lib/common-j
+ avassist-1.0.0.B003.jar ./lib/javassist-3.18.1-GA.jar ./lib/foundatio
+ n-metrics-1.0.0.B003.jar ./lib/spectator-reg-servo-0.62.0.jar ./lib/s
+ pectator-api-0.62.0.jar ./lib/transport-rest-vertx-1.0.0.B003.jar ./l
+ ib/transport-rest-client-1.0.0.B003.jar ./lib/common-rest-1.0.0.B003.
+ jar ./lib/transport-rest-servlet-1.0.0.B003.jar ./lib/javax.servlet-a
+ pi-3.1.0.jar ./lib/spring-webmvc-4.3.5.RELEASE.jar ./lib/spring-aop-4
+ .3.5.RELEASE.jar ./lib/spring-core-4.3.5.RELEASE.jar ./lib/spring-exp
+ ression-4.3.5.RELEASE.jar ./lib/spring-web-4.3.5.RELEASE.jar ./lib/pr
+ ovider-springmvc-1.0.0.B003.jar ./lib/provider-rest-common-1.0.0.B003
+ .jar ./lib/swagger-invocation-springmvc-1.0.0.B003.jar ./lib/swagger-
+ generator-springmvc-1.0.0.B003.jar ./lib/swagger-generator-core-1.0.0
+ .B003.jar ./lib/swagger-core-1.5.12.jar ./lib/commons-lang3-3.3.2.jar
+  ./lib/jackson-dataformat-yaml-2.9.4.jar ./lib/swagger-models-1.5.12.
+ jar ./lib/swagger-annotations-1.5.12.jar ./lib/validation-api-1.1.0.F
+ inal.jar ./lib/provider-jaxrs-1.0.0.B003.jar ./lib/swagger-invocation
+ -jaxrs-1.0.0.B003.jar ./lib/swagger-generator-jaxrs-1.0.0.B003.jar ./
+ lib/handler-flowcontrol-qps-1.0.0.B003.jar ./lib/handler-bizkeeper-1.
+ 0.0.B003.jar ./lib/hystrix-core-1.5.10.jar ./lib/HdrHistogram-2.1.9.j
+ ar ./lib/handler-fault-injection-1.0.0.B003.jar ./lib/handler-loadbal
+ ance-1.0.0.B003.jar ./lib/ribbon-2.2.2.jar ./lib/ribbon-transport-2.2
+ .2.jar ./lib/rxnetty-contexts-0.4.9.jar ./lib/rxnetty-servo-0.4.9.jar
+  ./lib/rxnetty-0.4.9.jar ./lib/ribbon-loadbalancer-2.2.2.jar ./lib/ne
+ tflix-statistics-0.1.1.jar ./lib/servo-core-0.10.1.jar ./lib/servo-in
+ ternal-0.10.1.jar ./lib/netflix-commons-util-0.1.1.jar ./lib/ribbon-c
+ ore-2.2.2.jar ./lib/archaius-core-0.7.3.jar ./lib/jsr305-3.0.1.jar ./
+ lib/jackson-core-2.9.4.jar ./lib/rxjava-1.1.6.jar ./lib/commons-lang-
+ 2.6.jar ./lib/cse-handler-cloud-extension-2.3.12.jar ./lib/cse-handle
+ r-performance-stats-2.3.12.jar ./lib/cse-handler-tcc-2.3.12.jar ./lib
+ /guava-16.0.1.jar ./lib/aspectjweaver-1.8.8.jar ./lib/provider-pojo-1
+ .0.0.B003.jar ./lib/java-chassis-core-1.0.0.B003.jar ./lib/service-re
+ gistry-1.0.0.B003.jar ./lib/swagger-invocation-core-1.0.0.B003.jar ./
+ lib/brave-4.13.1.jar ./lib/zipkin-2.4.2.jar ./lib/zipkin-reporter-2.2
+ .2.jar ./lib/javax.inject-1.jar ./lib/spring-aspects-4.3.5.RELEASE.ja
+ r ./lib/slf4j-log4j12-1.7.7.jar ./lib/slf4j-api-1.7.7.jar ./lib/log4j
+ -1.2.17.jar
+Build-Jdk: 1.8.0_172
+Created-By: Maven Integration for Eclipse
+Main-Class: com.huawei.paas.cse.demo.Consumer
+
