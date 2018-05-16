@@ -1,5 +1,5 @@
-1、	添加NetServerListFilter.java类
-2、	在microservice.yaml文件里添加
+1、添加NetServerListFilter.java类
+2、在microservice.yaml文件里添加配置项
 cse:
   loadbalance:
     serverListFilters: netserver
