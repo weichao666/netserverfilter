@@ -18,3 +18,26 @@
 
 新建NET网关，添加DNAT规则，将私网节点ip和端口映射为弹性公网ip和端口。
 
+### 本地客户端改造步骤：
+
+本地客户端从环境SC上获取的服务端ip和端口是容器的ip和端口，例如172.31.0.5:8080，需要替换为环境上映射的弹性公网ip和端口。
+
+具体实现可以参考[https://github.com/weichao666/netserverfilter](https://github.com/weichao666/netserverfilter)里的helloClient工程。
+
+1、添加NetServerListFilter.java类
+
+2、在microservice.yaml文件里添加
+
+```yaml
+cse:
+  loadbalance:
+    serverListFilters: netserver
+    serverListFilter:
+      netserver:
+        className: com.huawei.paas.cse.net.NetServerListFilter
+  proxy:
+    address: 139.159.161.123:30101
+```
+
+
+
