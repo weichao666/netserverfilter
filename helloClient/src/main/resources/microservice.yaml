@@ -22,7 +22,7 @@ cse:
       netserver:
         className: com.huawei.paas.cse.net.NetServerListFilter
   proxy:
-    address: 192.168.0.170
+    address: 139.159.161.123:30101
   config:
     client:
       serverUri: https://cse.cn-south-1.myhuaweicloud.com:443
