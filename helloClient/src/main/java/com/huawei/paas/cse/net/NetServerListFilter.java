@@ -53,8 +53,7 @@ public class NetServerListFilter implements ServerListFilterExt {
         e.printStackTrace();
       }
       String schema = uri.getScheme();
-      int port = uri.getPort();
-      String newEndpoint = new StringBuffer(schema).append("://").append(ruleStr.get()).append(":").append(port).toString();
+      String newEndpoint = new StringBuffer(schema).append("://").append(ruleStr.get()).toString();
       CacheEndpoint cacheEndpoint = new CacheEndpoint(newEndpoint, endpoint.getMicroserviceInstance());
       CseServer newServer = new CseServer(transport, cacheEndpoint);
       newServerList.add(newServer);
